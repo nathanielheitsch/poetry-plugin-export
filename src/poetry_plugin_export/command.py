@@ -77,7 +77,7 @@ class ExportCommand(GroupCommand):
         option("with-credentials", None, "Include credentials for extra indices."),
         option(
              "resolve-path-dependencies",
-             "P",
+             None,
              "Resolve path dependencies to package versions.",
          ),
     ]
